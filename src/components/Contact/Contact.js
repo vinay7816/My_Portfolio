@@ -69,7 +69,7 @@ const Contact = () => {
                 </label>
                 <input
                   type="text"
-                  className="form-control info"
+                  className="form-control info-contact"
                   required
                   style={{backgroundColor:"#404040"}}
                   id="inputName"
@@ -84,8 +84,8 @@ const Contact = () => {
                 </label>
                 <input
                   type="email"
-                  style={{backgroundColor:"#404040"}}
-                  className="form-control info"
+                  style={{backgroundColor:"#404040",fontSize:"small"}}
+                  className="form-control info-contact"
                   required
                   id="inputEmail"
                   name="user_email"
