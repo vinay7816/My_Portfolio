@@ -1,0 +1,197 @@
+.typer{
+  font-size: 3rem !important;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  
+}
+.info{
+  font-size: 3.5rem !important;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+@media(max-width:390px){
+  .typer{
+    font-size: 1.6rem !important;
+    display: flex;
+        align-self: center;
+        justify-content: center;
+  }
+  .info{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-Size: 2rem !important;
+    margin: 0;
+}
+.para{
+  font-size: 0.6rem !important;
+  display: flex;
+        align-self: center;
+        justify-content: center;  
+}
+  
+
+}
+@media (max-width: 860px) and (min-width: 768px) {
+  .btn {
+   font-size: 10px !important;
+   display: flex !important;
+   justify-content: center;
+   align-items: center;
+   
+}
+}
+@media(max-width:800px){
+  .main-home{
+    margin-top:10rem !important;
+   }
+    .main{
+       width: 100vw;
+        .img{
+        
+            align-items: center;
+            justify-content: center;
+            
+         }
+        
+        
+           
+
+    }
+    .typer{
+        font-size: 2rem !important;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+    .para{
+        display: flex;
+        align-self: center;
+        justify-content: center;  
+    }
+    .info{
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        font-Size: 2.5rem !important;
+        margin: 0;
+    }
+    .buttons{
+        display: block;
+        align-items: center;
+        padding: 25px;
+        justify-content: center;
+      
+        .btn {
+             width: 100%;
+            align-self: center;
+            justify-content: center;
+           margin-top: 9px;
+            background-color: none;
+            color: white;
+            border-radius: 5rem;
+        }
+    }
+ 
+   
+}
+@media(max-width:1100px){
+  .img{
+    width: 10rem;
+  }
+  .typer{
+    font-size: 1.5rem !important;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.para{
+  font-size: 0.8rem;
+  display: flex;
+  align-self: center;
+  justify-content: center;  
+}
+.info{
+  font-size: 2rem !important ;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+}
+@media(max-width:800px){
+    .typer{
+        font-size: 4vw;
+    }
+    .responsive-img{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+}
+.download-button{
+  background-color: #003285;
+}
+
+.download-button,.contact-button {
+    background-color: none;
+    color: black;
+    border-radius: 5rem;
+    color: white;
+    border: solid 2px #003285;
+}
+
+.btn:hover {
+    background-color: #003285;
+    transition: all 0.4s;
+}
+.container {
+    margin: 5rem;
+    color: white; 
+  
+    
+  
+    .info {
+      font-family: "Kavoon";
+      font-size: 6.5rem;
+      color:rgb(94 20 84 ); ;
+    }
+  
+    .typer {
+      font-family: "itim";
+      font-size: 3rem !important; 
+    }
+  
+    .para {
+      margin-top: 1rem; 
+    }
+  
+    .buttons {
+      .btn {
+        width: 100%; 
+        margin-bottom: 0.7rem;
+  
+        @media (max-width: 800px) {
+          width: auto; 
+          margin-bottom: 0; 
+        }
+      }
+    }
+  }
+  .home-container {
+    height: 100vh; // Full height of the viewport
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; // Optional: to center text in smaller viewports
+    color: white;
+    height: 100vh;
+  }
+  
+  
+  
+  
+  

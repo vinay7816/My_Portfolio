@@ -1,0 +1,44 @@
+
+.contact-section{
+    background-color: #1b1b1b;
+    border-radius: 2rem;
+    gap: 2;
+}
+.contact-img{
+    margin-top: -60px;
+ }
+.icons{
+    display: inline-block;
+   align-items: center;
+}
+.submit{
+    margin-top: 1.5rem;
+    border-radius: 0.6rem;
+    border: none;
+    background-color: #003285;
+}
+.submit:hover{
+    transition: all 0.3s;
+}
+.info{
+    height: 2rem !important;
+}
+label{
+    padding-top: 0.6rem;
+   
+}
+.paragraph1{
+font-size: smaller;  
+padding-top: 0;  
+margin-top: 0;
+}
+
+@media(max-width:800px){
+ .main-contact{
+    width: 100% !important;
+    margin: 5.5rem 0rem  !important;
+ }
+ .contact-img{
+    margin-top: -120px;
+ }
+}
