@@ -26,7 +26,7 @@ const Home = ({ mode }) => {
             <p className='para'>I'm a Frontend Developer with a passion for creating interactive and user-friendly web applications.</p>
             <div className="buttons row g-3">
               <div className="col-12 col-md-6">
-                <a href='VINAYREDDY20211a04f0(3).pdf' download='resume.pdf' className="btn btn w-100 download-button">Download CV</a>
+                <a href='Vinays_Resume.pdf' download='resume.pdf' className="btn btn w-100 download-button">Download CV</a>
               </div>
               <div className="col-12 col-md-6">
                 <button className="btn w-100 contact-button">Contact me</button>
