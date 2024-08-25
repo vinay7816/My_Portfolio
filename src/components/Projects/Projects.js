@@ -26,7 +26,7 @@ const Projects = () => {
     {
       imageName: youtube,
       title: 'Youtube_Clone',
-      demoLink: '/',
+      demoLink: 'https://project-youtube-clone-main-ocx3dwetm.vercel.app/',
       gitlink:'https://github.com/vinay7816/Youtube_Clone'
     },
     {
