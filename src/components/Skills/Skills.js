@@ -5,7 +5,7 @@ import booticon from "../../assets/bootstrap.png";
 import javascript from "../../assets/javascript.png";
 import reacticon from "../../assets/react.png";
 import javaicon from "../../assets/java.png";
-import springicon from '../../assets/springboot.png';
+import nexticon from "../../assets/nextjs.png"
 import sqlicon from "../../assets/mysql.png";
 import giticon from "../../assets/GIT.png"
 import './Skills.scss';
@@ -18,7 +18,7 @@ const Skills = () => {
     { Skillurl: javascript, title: "JAVASCRIPT" },
     { Skillurl: reacticon, title: "REACT" },
     { Skillurl: javaicon, title: "JAVA" },
-    { Skillurl: springicon, title: "SPRINGBOOT" },
+    { Skillurl: nexticon, title: "Next js" },
     { Skillurl: sqlicon, title: "MY SQL" },
     { Skillurl: giticon, title: "Git" }
   ];
