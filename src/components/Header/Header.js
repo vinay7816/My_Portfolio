@@ -35,7 +35,7 @@ const Header = (props) => {
 
   return (
     <nav className={`navbar navbar-expand-lg ${isSticky ? 'sticky' : ''}`}   >
-      <div className="container-fluid" >
+      <div className="container-fluid" style={{backgroundColor:"black"}}>
         <a className="navbar-brand " href="#" style={{color:props.mode==='light'?'black':'white',fontFamily:'itim'}} >
           Vinay
         </a>
